@@ -28,6 +28,7 @@ echo
 echo "installing ocker packages"
 echo "==================================================="
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y &> /dev/null
+sleep 25
 echo
 
 echo "Docker status"
