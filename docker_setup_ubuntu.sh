@@ -25,7 +25,7 @@ echo "==================================================="
 sudo apt-get update
 sleep 3
 echo
-echo "installing ocker packages"
+echo "installing docker packages"
 echo "==================================================="
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y &> /dev/null
 sleep 25
