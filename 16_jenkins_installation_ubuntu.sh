@@ -8,7 +8,7 @@ sleep 5
 echo
 
 echo "================================================"
-echo "Installing jenkins dependency java 17"
+echo "Installing jenkins dependency java 21"
 echo "================================================"
 sudo apt install openjdk-21-jdk -y > /dev/null
 sleep 5
